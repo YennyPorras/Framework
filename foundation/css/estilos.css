@@ -1,0 +1,113 @@
+body {
+    margin: 10px;
+    background: white;
+}
+
+/*Cabecera de página*/
+.titulo-pagina {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    border-right: 3px solid whitesmoke;
+    height: 170px;
+}
+
+.cabecera {
+    background-color: purple;
+    border-bottom: 1px solid whitesmoke;
+    color: white;
+    text-align: right;
+    height: 170px;
+}
+
+/*menu de busqueda*/
+.columna1 {
+    background: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.form-control {
+    background-color: white;
+    color: purple;
+    width: 100%;
+}
+.button{
+    background:purple;
+    height:39px;
+}
+.navbar-form {
+    margin-top: 20px;
+}
+
+.primer-menu {
+    background-color: white;
+    margin-left:10px;
+}
+
+
+.menu-vertical {
+    width: 100%;
+    list-style: none;
+}
+
+.nav a {
+    background: white;
+    color: purple;
+}
+
+.nav li:hover {
+    background: whitesmoke;
+}
+.active{
+    background:whitesmoke;
+    color:purple;
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: purple;
+    background: whitesmoke;
+}
+/*menu de favoritos*/
+.favoritos{
+    background: white;
+    text-align:center;
+    font-size:10px;
+    color:purple;
+}
+.imagen-favoritos{
+    width:100px;
+    height:100px;
+}
+/*menu de historial*/
+.historial{
+    background: white;
+    color:purple;
+}
+.imagen-favoritos{
+    width:100px;
+    height:100px;
+}
+/*Contenido*/
+.titulo {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    border-right: 3px solid whitesmoke;
+    height: 40px;
+    margin-top:20px;
+}
+.fecha{
+    margin-left:10px;
+    font-size:10px;
+}
+.imagen-receta{
+    width:100%;
+    margin-bottom:20px;
+}
+.boton-enviar{
+    color:white;
+    background:purple;
+    margin-left:15px;
+}

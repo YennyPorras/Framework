@@ -1,0 +1,144 @@
+body {
+    background: white;
+}
+
+/*cabecera*/
+.nav-wrapper {
+    height: 100px;
+}
+
+.fondo-cabecera {
+    width: 100%;
+    height: 150px;
+    background: #03a9f4;
+    font-size: 30px;
+}
+
+.logo {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.btn {
+    background: #01579b;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/*redes sociales*/
+.imagenes-sociales {
+    margin-top: 10px;
+    background: #03a9f4;
+}
+
+.red-social {
+    border-radius: 10px;
+    width: 40px;
+    margin: 20px;
+    margin-top: 110px;
+}
+
+/*sitios turisticos*/
+.imagen-turismo-central {
+    margin: 20px;
+    border: 4px solid #01579b;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-turismo {
+    margin: 60px;
+    border: 4px solid #01579b;
+    width: 100%;
+    height: 100%;
+}
+
+/*articulo*/
+.titulo-articulo {
+    text-align: center;
+    color: #01579b;
+}
+
+.imagen-articulo {
+    width: 300px;
+    margin: 10px;
+}
+
+.texto-articulo {
+    text-align: justify;
+    margin: 40px;
+}
+
+/*comentarios*/
+.comentarios {
+    margin-top: 20px;
+}
+
+.barra-comentarios {
+    width: 85% !important;
+}
+
+.chip {
+    margin-right: 20px;
+    background: #03a9f4;
+    color: white;
+}
+
+hr {
+    width: 70%;
+    background: #01579b
+}
+
+.boton-enviar {
+    margin-bottom: 30px;
+}
+
+/*usuario*/
+.perfil-usuario {
+    text-align: center;
+    margin: 20px;
+}
+
+.texto-autor {
+    margin: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        border-radius: 20px;
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    .fondo-cabecera {
+        font-size: 15px;
+    }
+
+    .imagen-turismo {
+        width: 90%;
+        margin: 10px;
+    }
+    .titulo-articulo{
+        font-size:12px;
+    }
+
+    .chip {
+        font-size: 10px;
+        margin:10px;
+
+    }
+    .imagen-articulo{
+        width:90%;
+        margin:20px;
+    }
+    .texto-articulo{
+        margin:20px;
+    }
+}
